@@ -18,7 +18,6 @@ namespace SuperArubaHPE
             if (!Directory.Exists(@".\scripts\") || Directory.GetFiles(@".\scripts\").Length == 0)
             {
                 Console.WriteLine("Missing scripts folder or empty...");
-                Console.ReadLine();
                 Thread.Sleep(3000);
                 return 2;
             }
