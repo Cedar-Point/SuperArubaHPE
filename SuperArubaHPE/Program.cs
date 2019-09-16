@@ -88,7 +88,7 @@ namespace SuperArubaHPE
             text = ansi.Replace(text, "");
             if (lastMessage != "")
             {
-                text = text.Replace(lastMessage, lastMessage + "\n\r");
+                text = text.Replace(lastMessage, lastMessage + "\n");
             }
             Console.Write(text);
             waiting = false;
